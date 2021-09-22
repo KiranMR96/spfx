@@ -1,0 +1,1 @@
+https://m365sharepointdev.sharepoint.com/sites/contosoteam/_api/sp.userprofiles.peoplemanager/GetMyProperties

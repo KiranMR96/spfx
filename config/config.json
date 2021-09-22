@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "birthday-message-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/birthdayMessage/BirthdayMessageWebPart.js",
+          "manifest": "./src/webparts/birthdayMessage/BirthdayMessageWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "BirthdayMessageWebPartStrings": "lib/webparts/birthdayMessage/loc/{locale}.js"
+  }
+}
